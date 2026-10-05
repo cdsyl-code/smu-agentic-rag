@@ -1,0 +1,6 @@
+{
+  "name": "Markets Overview — Real-time Financial Quotes & Charts",
+  "description": "Explore global indices, real-time market movers, US stocks, crypto, commodities, currencies, and interactive financial charts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

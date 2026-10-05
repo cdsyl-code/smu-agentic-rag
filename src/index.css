@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Trebuchet MS', Roboto, sans-serif;
+    color: #131722;
+    background-color: #FFFFFF;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+.font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.cta-gradient {
+  background: linear-gradient(135deg, #0052FF 0%, #7000FF 100%);
+}
+
+@keyframes flash-green {
+  0% { background-color: rgba(8, 153, 129, 0.2); }
+  100% { background-color: transparent; }
+}
+
+@keyframes flash-red {
+  0% { background-color: rgba(242, 54, 69, 0.2); }
+  100% { background-color: transparent; }
+}
+
+.flash-up {
+  animation: flash-green 1s ease-out;
+}
+
+.flash-down {
+  animation: flash-red 1s ease-out;
+}
+
